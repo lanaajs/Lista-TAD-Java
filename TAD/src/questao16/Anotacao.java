@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 public class Anotacao {
 
-    private LocalDate data;
-    private String titulo;
-    private String conteudo;
+    LocalDate data;
+    String titulo;
+    String conteudo;
 
     public Anotacao(LocalDate data, String titulo, String conteudo) {
         this.data = data;

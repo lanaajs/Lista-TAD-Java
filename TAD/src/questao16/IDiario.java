@@ -2,7 +2,7 @@ package questao16;
 
 public interface IDiario {
 	
-	void adicionarAnotacao();
+	public void adicionarAnotacao();
     void listarAnotacoes();
     void visualizarAnotacao(); 
 }
