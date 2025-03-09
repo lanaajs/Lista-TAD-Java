@@ -71,8 +71,9 @@ public class Funcionario implements IFuncionario{
             return dataAdmissao.format(formatter);
         } catch (Exception e) {
             System.out.print("Data inválida. Use o formato dd/MM/yyyy.");
-            return null;
         }
+        
+        return dataAdmissao.format(formatter);
 	}
 	
 }
